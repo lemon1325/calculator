@@ -8,6 +8,7 @@
 #include "eval.h"
 
 int global_var=0;
+int hello;
 
 char * toPostfix(char * infix, char * postfix) {
 	char buffer[BUFFERSIZE];
