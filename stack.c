@@ -16,7 +16,7 @@ void make_empty(Stack * stack)
 {
 	stack->top = 0;
 }
-//스택이 비었는지 확인
+//스택이 비었는지 검사
 bool is_empty(Stack * stack)
 {
 	return stack->top == 0;
