@@ -7,6 +7,7 @@ typedef struct stack {
 Item * contents;
 int top;
 int size;
+int n;
 } Stack;
 
 Stack * create_stack(int initial_size);
